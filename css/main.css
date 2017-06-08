@@ -40,7 +40,7 @@ body {
     background-color: #080808;
 }
 
-/*============ start header ==========*/
+/*============ Header ==========*/
 
 header {
     background: url(../images/header.png) no-repeat top center;
@@ -158,6 +158,7 @@ header form input[type="submit"]{
     -moz-box-shadow: 0 2px 5px rgba(100,100,100,0.4);
     -o-box-shadow: 0 2px 5px rgba(100,100,100,0.4);
     box-shadow: 0 2px 5px rgba(100,100,100,0.4);
+    border-bottom: 1px solid #ccc;
 }
 .social-section h4 {
     font-weight: 600;
@@ -207,11 +208,25 @@ header form input[type="submit"]{
 @media (max-width : 991px){
     .social-section {
         text-align: center;
+        padding: 22px 0;
     }
+    .social-section h4 {
+        font-size: 20px;
+    }
+    .social-section p {
+        margin-bottom: 15px;
+    }
+    .social-section ul {
+    margin-left: 0;
+}
+    
     .social-section ul li {
     display: inline-block;
     margin: 10px;
 }
+    .social-section ul li .fa {
+        font-size: 35px;
+    }
 }
 
 /*========== Tabs Section  ============*/
