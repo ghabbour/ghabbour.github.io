@@ -149,6 +149,11 @@ header form input[type="submit"]{
         margin: 20px auto;
     }
     
+    header form {
+        width: 90%;
+        margin: 6vh auto;
+    }
+    
 }
 
 /*============= social media section  =============*/
