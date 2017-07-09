@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('./Pacifico-Regular.ttf');
+}
+
+
+/* Global styles */
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+
+/* sidebar */
+
+.button-collapse {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    color: #000;
+}
+
+
+/* Header */
+
+header {
+    background: url('../img/bg1.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(52, 152, 219, 0.5);
+}
+
+header .hero {
+    padding-top: 20vh;
+    color: #fff;
+}
+
+header .hero h3 {
+    font-size: 200%;
+    font-family: 'myfont';
+    margin-bottom: 2rem;
+}
+
+header .hero h1 {
+    margin-top: 3rem;
+    font-size: 550%;
+    letter-spacing: 3px;
+}
+
+header .hero h1 small {
+    color: #fff;
+    font-weight: 200;
+}
+
+header .hero i {
+    cursor: pointer;
+}
+
+@media(max-width: 767px) {
+    header .hero {
+        padding-top: 15vh;
+    }
+}
+
+@media(max-width: 480px) {
+    header .hero h1 {
+        font-size: 400%;
+    }
+}
+
+
+/* About section */
+
+#about {
+    padding: 6rem 0;
+    background: #f5f5f5;
+}
+
+#about img {
+    margin-bottom: 2rem;
+}
+
+#about p {
+    line-height: 1.5;
+    font-size: 140%;
+}
+
+
+/* skills-info section */
+
+#skills-info .row {
+    margin-bottom: 0;
+}
+
+#personal-info {
+    padding: 4rem 0;
+    background: #3498db;
+    box-sizing: border-box;
+    padding: 58px;
+}
+
+#personal-info h2 {
+    color: #333;
+    padding-bottom: 2rem;
+}
+
+#personal-info h4 {
+    color: #fff;
+    line-height: 3;
+}
+
+#personal-info h4 i {
+    margin-right: 1rem;
+}
+
+#skills {
+    padding: 3.5rem 0;
+    background: #2ecc71;
+}
+
+#skills h2 {
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+#skills h4 {
+    color: #fff;
+}
+
+#skills h4 i {
+    margin-left: 1rem;
+}
+
+#skills h4 img {
+    display: inline-block;
+}
+
+
+/* projects section */
+
+#projects {
+    padding: 6rem 0;
+    background: #f5f5f5;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    margin-top: 4rem;
+}
+
+#projects .card img {
+    height: 250px;
+    width: 100%;
+}
+
+#projects .card .overlay {
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 152, 219, 0.5);
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#projects .card:hover .overlay {
+    bottom: 0;
+    background: rgba(52, 152, 219, 0.7);
+}
+
+#projects .card .overlay a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects .card .overlay a i {
+    margin-top: 5rem;
+}
+
+#projects .card .overlay h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#projects .card .overlay ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+/* certifications section */
+
+#certifications {
+    padding: 6rem 0;
+}
+
+#certifications .card img {
+    height: 250px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#certifications .card {
+    transition: all 0.3s;
+}
+
+#certifications .card:hover {
+    box-shadow: 0 8px 10px 1px rgba(52, 152, 219, 0.14), 0 3px 14px 2px rgba(52, 152, 219, 0.12), 0 5px 5px -3px rgba(52, 152, 219, 0.3);
+    transition: all 0.3s;
+}
+
+
+/* social section */
+
+#social {
+    padding: 6rem 0;
+    background: #f5f5f5;
+}
+
+#social h2 {
+    margin-bottom: 3rem;
+}
+
+#social ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+#social ul li i {
+    font-size: 2.2em;
+}
+
+#social ul li #facebook {
+    background: #3b5998;
+}
+
+#social ul li #twitter {
+    background: #1da1f2;
+}
+
+#social ul li #linkedin {
+    background: #0077b5;
+}
+
+#social ul li #behance {
+    background: #1769ff;
+}
+
+#social ul li #instagram {
+    background: linear-gradient( to top right, #833ab4, #e1306c);
+}
+
+#social ul li #dribbble {
+    background: #ea4c89;
+}
+
+
+/* start scroll to top */
+#scroll-top {
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 999;
+    cursor: pointer;
+    display: none;
+    transition: all 0.3s;
+}
+#scroll-top i {
+    font-size: 3.3em;
+}
+/* end scroll to top */
