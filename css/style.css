@@ -5,7 +5,14 @@
 
 
 /* Global styles */
-
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 ul {
     list-style-type: none;
 }
@@ -109,14 +116,15 @@ header .hero i {
 /* skills-info section */
 
 #skills-info .row {
-    margin-bottom: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #personal-info {
-    padding: 4rem 0;
+    padding: 5.5rem 0;
     background: #3498db;
     box-sizing: border-box;
-    padding: 58px;
 }
 
 #personal-info h2 {
@@ -136,7 +144,7 @@ header .hero i {
 
 
 #skills {
-    padding: 3.5rem 0;
+    padding: 3.2rem 0;
     background: #2ecc71;
 }
 
