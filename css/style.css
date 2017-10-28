@@ -118,8 +118,9 @@ header .hero i {
    margin-right: auto;
 }
 
+
 #personal-info {
-    padding: 5.5rem 0;
+    padding: 4rem 0;
     background: #3498db;
     box-sizing: border-box;
 }
@@ -129,8 +130,14 @@ header .hero i {
     padding-bottom: 2rem;
 }
 
+#personal-info ul li {
+    text-indent: 4em;
+    padding: .66rem 0;
+}
+
 #personal-info h4 {
     color: #fff;
+    font-weight: 200;
     line-height: 3;
 }
 
@@ -141,7 +148,7 @@ header .hero i {
 
 
 #skills {
-    padding: 3.2rem 0;
+    padding: 4rem 0;
     background: #2ecc71;
 }
 
